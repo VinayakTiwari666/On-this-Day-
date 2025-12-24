@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> On This Day </title><!--Title displayed on tab(can change later)-->
+    <link rel="stylesheet" href="style.css">  
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap" rel="stylesheet">
+</head>
+
+<body>
+    <div class="container">
+        <h1>On This Day in History</h1><!--Heading (can change later)-->
+
+        <p>Enter your birthday to discover a historical event that happened on that day  </p>
+        <div class="input-section">
+        <label for="month"> Select Month</label>
+        <select id="month">
+        <option value = "">Month</option>
+        <option value = "1">January</option>
+        <option value = "2">Feburary</option>
+        <option value = "3">March</option>
+        <option value = "4">April</option>
+        <option value = "5">May</option>
+        <option value = "6">June</option>
+        <option value = "7">July</option>
+        <option value = "8">August</option>
+        <option value = "9">September</option>
+        <option value = "10">October</option>
+        <option value = "11">November</option>
+        <option value = "12">December</option>
+        </select>
+        <label for ="day">Select Day</label>
+        <select id="day">
+        <option value="">Day</option>
+        </select>   
+        <button id="showEventBtn">Show Event</button>
+        <div id="loader" class="loader hidden"></div>
+        </div>
+        <div class="result-section"></div>
+        <h2>Historical Event</h2>
+        <p id="eventOutput">Your event will appear here.</p>
+        </div>
+    </div>
+    
+    <script src="logic.js"></script>
+    
+</body>
+<footer>
+    <p>Created by Vinayak Tiwari | Contact me at : vinayaktiwari666@gmail.com" ></p>
+    <p> MyLinkedin :  <a href="https://www.linkedin.com/in/vinayak-tiwari-97a193329?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app" target="_blank">LinkedIn</a></p>
+</footer>
+</html>
